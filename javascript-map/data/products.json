@@ -1,0 +1,14 @@
+
+[
+    {
+        "name": "notebook",
+        "qtde": 100,
+        "price": 1100
+    },
+    {
+        "name": "smartphone",
+        "qtde": 50,
+        "price": 480
+    }
+]
+
