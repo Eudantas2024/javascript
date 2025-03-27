@@ -1,0 +1,41 @@
+* { 
+	margin:0; 
+	padding:0;
+} 
+
+#slide { 
+	width: 640px; 
+	overflow: hidden; 
+	height: 428px; 
+	margin: 50px auto; 
+	box-shadow: 3px 20px 30px #04d643; 
+	position: relative; 
+} 
+
+#slide img { 
+	position: absolute; 
+	top: 0;
+	left: 0; 
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	transition: opacity 1s ease; 
+} 
+
+#slide img.ativo {
+	opacity: 1;
+}
+
+#slide p { 
+	z-index:2; 
+	position: absolute; 
+	bottom: 0; 
+	left: 0; 
+	width: 100%; 
+	padding: 10px; 
+	font-family: Arial; 
+	font-size: 14px; 
+	background: rgba(0,0,0,0.5); 
+	color: #fff; 
+}
+
